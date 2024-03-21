@@ -1,0 +1,12 @@
+echo "Enter a number:"
+read num
+
+if [ $num -gt 10 ]; then
+    echo "The number is greater than 10."
+else
+    echo "The number is 10 or less."
+output
+ubuntu@ip-172-31-14-54:~/shell_scripting$ ./ifelse.sh
+Enter a number:
+25
+The number is greater than 10.
